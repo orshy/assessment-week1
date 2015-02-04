@@ -1,12 +1,12 @@
-<h1>First we will enter a sentence. <br><br> then we will enter a word </h1>
-<form action='/wc_output'>
+<h1><small><font face="verdana" color="tomato">Word Count</font></small></h1>
+<hr><form action='/result'>
   <div class="form-group">
-    <label for="text_block">Enter a sentence here:</label>
-    <input id="text_block" name="text_block" class="form-control" type="text">
+    <label for="word">Enter sentence below:</label>
+    <input id="word" name="word" class="form-control" type="text">
   </div>
   <div class="form-group">
-    <label for="word">Lets count that word!</label>
-    <input id="word" name="word" class="form-control" type="text" size= "50">
+    <label for="count">Choose a word to count in that sentence:</label>
+    <input id="count" name="count" class="form-control" type="text">
   </div>
-  <button type="submit" class="btn btn-lrg btn-sucess">Count!</button>
+  <button type="submit" class="btn btn-primary">word count</button>
 </form>
